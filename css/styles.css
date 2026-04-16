@@ -41,3 +41,66 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #1b4fa3;
 }
+
+/* mobile rules, hamburger, and other styles for adoptions & home */ 
+#intro, #info {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+.mobile-nav {
+  background-color: #2D6CDF;
+  color: white;
+  padding: 10px;
+}
+
+.mobile-nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}
+
+.tab-desk {
+  background-color: #3CB371;
+}
+
+.tab-desk ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.tab-desk li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.tab-desk a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .tab-desk {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tab-desk {
+    display: none;
+  }
+}
