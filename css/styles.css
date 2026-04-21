@@ -119,3 +119,50 @@ input[type="submit"]:hover {
   font-style: italic;
   color: #444;
 }
+
+
+/* yossef addition */ 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  background-color: #F5F7FA;
+  color: #333;
+  margin: 0;
+}
+
+main {
+  width: 85%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 1.2em;
+  background-color: white;
+}
+
+header h1 {
+  margin: 0;
+  color: #2D6CDF;
+}
+
+h2 {
+  color: #2D6CDF;
+  text-align: center;
+}
+header h1,
+h2,
+h3,
+.tab-desk a,
+.mobile-nav a {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.caption,
+figcaption {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
