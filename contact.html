@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- Student Name: Yossef Talkhan
+File Name: contact.html
+Date: 04/17/2026
+-->
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humane Labs Rescue | Contact</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+  <!-- MOBILE NAV -->
+  <nav class="mobile-nav">
+    <div id="menu-links">
+      <a href="index.html">Home</a>
+      <a href="adopt.html">Adopt</a>
+      <a href="donate.html">Donate</a>
+      <a href="media.html">Stories</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <a class="menu-icon" onclick="hamburger()">
+      <div>&#9776;</div>
+    </a>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Humane Labs Rescue</h1>
+  </header>
+
+  <!-- DESKTOP NAV -->
+  <nav class="tab-desk">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="adopt.html">Adopt</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="media.html">Stories</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <section class="contact-hero">
+      <div class="contact-hero-text">
+        <h2>Contact Us</h2>
+        <p>
+          We would love to hear from you. Reach out if you have questions about
+          adoptions, donations, volunteering, or animal rescue services.
+        </p>
+        <p class="caption">Helping animals starts with community support.</p>
+      </div>
+
+      <div class="contact-hero-image">
+        <img src="images/volunteer.jpg" alt="Volunteer caring for a rescued animal" class="contact-img">
+      </div>
+    </section>
+
+    <section class="content-box">
+      <h2>Contact Information</h2>
+
+      <div class="contact-info-grid">
+        <div class="contact-info-card">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:contact@humanelabs.org" class="address-link">contact@humanelabs.org</a>
+          </p>
+
+          <p>
+            <strong>Phone:</strong>
+            <a href="tel:18005551234" class="address-link">(800) 555-1234</a>
+          </p>
+        </div>
+
+        <div class="contact-info-card">
+          <p>
+            <strong>Location:</strong>
+            <a href="https://maps.app.goo.gl/8LU7ThHD4A2DztK19" target="_blank" rel="noopener" class="address-link">
+              Iron Springs Rd, Cedar City, UT 84721
+            </a>
+          </p>
+
+          <p><strong>Office Hours:</strong> Monday - Friday, 9:00 a.m. to 5:00 p.m.</p>
+
+          <a href="https://maps.app.goo.gl/8LU7ThHD4A2DztK19" target="_blank" rel="noopener" class="map-btn">
+            Open in Google Maps
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-box">
+      <h2>How You Can Help</h2>
+
+      <div class="help-box">
+        <button type="button" onclick="toggleContent('help1')">Adopt an animal in need</button>
+        <div id="help1" class="hidden-content help-text">
+          <p>
+            Adoption gives rescued animals a safe home, stability, and a second chance at life.
+          </p>
+        </div>
+      </div>
+
+      <div class="help-box">
+        <button type="button" onclick="toggleContent('help2')">Donate to support rescue efforts</button>
+        <div id="help2" class="hidden-content help-text">
+          <p>
+            Donations help provide food, shelter, medical treatment, and everyday care for animals in need.
+          </p>
+        </div>
+      </div>
+
+      <div class="help-box">
+        <button type="button" onclick="toggleContent('help3')">Share stories to spread awareness</button>
+        <div id="help3" class="hidden-content help-text">
+          <p>
+            Sharing rescue stories helps more people learn about adoption, animal welfare, and ways to support the rescue.
+          </p>
+        </div>
+      </div>
+
+      <div class="help-box">
+        <button type="button" onclick="toggleContent('help4')">Contact us about future volunteer opportunities</button>
+        <div id="help4" class="hidden-content help-text">
+          <p>
+            Volunteers make a big difference by helping with events, care routines, and creating a welcoming environment for rescued animals.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Humane Labs Rescue</p>
+    <p><a href="mailto:contact@humanelabs.org">contact@humanelabs.org</a></p>
+    <p>
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">YouTube</a>
+    </p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
