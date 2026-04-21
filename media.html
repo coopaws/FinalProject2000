@@ -1,0 +1,453 @@
+<!DOCTYPE html> 
+
+<!-- Student Name: Yossef Talkhan 
+
+File Name: media.html 
+
+Date: 04/17/2026 
+
+--> 
+
+ 
+
+<html lang="en"> 
+
+<head> 
+
+  <meta charset="utf-8"> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>Humane Labs Rescue | Stories</title> 
+
+ 
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="css/styles.css"> 
+
+  <link rel="icon" href="images/favicon.ico"> 
+
+</head> 
+
+ 
+
+<body> 
+
+ 
+
+  <!-- MOBILE NAV --> 
+
+  <nav class="mobile-nav"> 
+
+    <div id="menu-links"> 
+
+      <a href="index.html">Home</a> 
+
+      <a href="adopt.html">Adopt</a> 
+
+      <a href="donate.html">Donate</a> 
+
+      <a href="media.html">Stories</a> 
+
+      <a href="contact.html">Contact</a> 
+
+    </div> 
+
+ 
+
+    <a class="menu-icon" onclick="hamburger()"> 
+
+      <div>&#9776;</div> 
+
+    </a> 
+
+  </nav> 
+
+ 
+
+  <!-- HEADER --> 
+
+  <header> 
+
+    <h1>Humane Labs Rescue</h1> 
+
+  </header> 
+
+ 
+
+  <!-- DESKTOP NAV --> 
+
+  <nav class="tab-desk"> 
+
+    <ul> 
+
+      <li><a href="index.html">Home</a></li> 
+
+      <li><a href="adopt.html">Adopt</a></li> 
+
+      <li><a href="donate.html">Donate</a></li> 
+
+      <li><a href="media.html">Stories</a></li> 
+
+      <li><a href="contact.html">Contact</a></li> 
+
+    </ul> 
+
+  </nav> 
+
+ 
+
+  <!-- MAIN CONTENT --> 
+
+  <main> 
+
+ 
+
+    <section class="story-hero"> 
+
+      <h2>Stories of Rescue and Hope</h2> 
+
+ 
+
+      <div class="story-hero-row"> 
+
+        <figure class="hero-image-card"> 
+
+          <img src="images/adopt.jpg" alt="Friendly rescue dog" class="hero-img"> 
+
+          <figcaption>A second chance starts with rescue.</figcaption> 
+
+        </figure> 
+
+ 
+
+        <div class="story-hero-text"> 
+
+          <p> 
+
+            Every animal who comes to Humane Labs Rescue has a different journey. 
+
+            Some need medical care, some need patience, and all of them need a safe 
+
+            place to begin again. 
+
+          </p> 
+
+ 
+
+          <p> 
+
+            Read a few of the rescue stories below and see how care, compassion, 
+
+            and adoption can completely change an animal’s life. 
+
+          </p> 
+
+        </div> 
+
+ 
+
+        <figure class="hero-image-card"> 
+
+          <img src="images/adopt1.jpg" alt="Rescued dog in a safe home" class="hero-img"> 
+
+          <figcaption>Safe homes help animals heal and thrive.</figcaption> 
+
+        </figure> 
+
+      </div> 
+
+    </section> 
+
+ 
+
+    <section class="content-box"> 
+
+      <h2>Click to Read Each Story</h2> 
+
+ 
+
+      <div class="story-grid"> 
+
+ 
+
+        <div class="story-box"> 
+
+          <button type="button" onclick="toggleContent('story1')">Show Bella's Story</button> 
+
+          <div id="story1" class="hidden-content"> 
+
+            <div class="story-layout"> 
+
+              <img src="images/bella.jpg" alt="Bella the rescued dog" class="story-img"> 
+
+              <div class="story-text"> 
+
+                <p> 
+
+                  Bella was rescued from an unsafe situation and brought to Humane Labs Rescue for care. 
+
+                  She was underweight and nervous when she first arrived, but after medical treatment, 
+
+                  daily walks, and foster care, she became healthy and playful. Bella was later adopted 
+
+                  by a family who gives her a safe and loving home. 
+
+                </p> 
+
+              </div> 
+
+            </div> 
+
+          </div> 
+
+        </div> 
+
+ 
+
+        <div class="story-box"> 
+
+          <button type="button" onclick="toggleContent('story2')">Show Max's Story</button> 
+
+          <div id="story2" class="hidden-content"> 
+
+            <div class="story-layout"> 
+
+              <img src="images/max.jpg" alt="Max the rescued cat" class="story-img"> 
+
+              <div class="story-text"> 
+
+                <p> 
+
+                  Max was found with an injured paw and needed immediate attention. After treatment, 
+
+                  recovery time, and gentle care, he became much more comfortable around people. 
+
+                  Max was eventually adopted by a couple looking for a calm and affectionate companion. 
+
+                </p> 
+
+              </div> 
+
+            </div> 
+
+          </div> 
+
+        </div> 
+
+ 
+
+        <div class="story-box"> 
+
+          <button type="button" onclick="toggleContent('story3')">Show Luna's Story</button> 
+
+          <div id="story3" class="hidden-content"> 
+
+            <div class="story-layout"> 
+
+              <img src="images/luna.jpg" alt="Luna the rescued dog" class="story-img"> 
+
+              <div class="story-text"> 
+
+                <p> 
+
+                  Luna was very shy when she first entered the rescue. Staff and volunteers worked with 
+
+                  her every day to help build trust and confidence. Over time, Luna became energetic, 
+
+                  friendly, and ready for adoption with a loving family. 
+
+                </p> 
+
+              </div> 
+
+            </div> 
+
+          </div> 
+
+        </div> 
+
+ 
+
+        <div class="story-box"> 
+
+          <button type="button" onclick="toggleContent('story4')">Show Slater's Story</button> 
+
+          <div id="story4" class="hidden-content"> 
+
+            <div class="story-layout"> 
+
+              <img src="images/slater.jpeg" alt="Slater the rescued dog" class="story-img"> 
+
+              <div class="story-text"> 
+
+                <p> 
+
+                  Slater came to Humane Labs Rescue after being found alone and exhausted. At first he 
+
+                  was cautious around new people, but with steady care, daily playtime, and patience, 
+
+                  he began showing his happy personality. Slater now lives in a home full of love and attention. 
+
+                </p> 
+
+              </div> 
+
+            </div> 
+
+          </div> 
+
+        </div> 
+
+ 
+
+        <div class="story-box"> 
+
+          <button type="button" onclick="toggleContent('story5')">Show Milo's Story</button> 
+
+          <div id="story5" class="hidden-content"> 
+
+            <div class="story-layout"> 
+
+              <img src="images/cat.jpg" alt="Milo the rescued cat" class="story-img"> 
+
+              <div class="story-text"> 
+
+                <p> 
+
+                  Milo was rescued after spending weeks outside without reliable food or shelter. 
+
+                  He was quiet and unsure at first, but with warm bedding, regular meals, and patient care, 
+
+                  he slowly became relaxed and affectionate. Milo now spends his days in a calm home where 
+
+                  he is safe, comfortable, and loved. 
+
+                </p> 
+
+              </div> 
+
+            </div> 
+
+          </div> 
+
+        </div> 
+
+ 
+
+        <div class="story-box"> 
+
+          <button type="button" onclick="toggleContent('story6')">Show Cleo's Story</button> 
+
+          <div id="story6" class="hidden-content"> 
+
+            <div class="story-layout"> 
+
+              <img src="images/cat2.jpg" alt="Cleo the rescued cat" class="story-img"> 
+
+              <div class="story-text"> 
+
+                <p> 
+
+                  Cleo came to Humane Labs Rescue after being surrendered by a family that could no longer care for her. 
+
+                  She needed time to adjust, but the rescue team helped her feel secure again. With gentle attention 
+
+                  and daily interaction, Cleo regained her confidence and was adopted into a home where she now thrives. 
+
+                </p> 
+
+              </div> 
+
+            </div> 
+
+          </div> 
+
+        </div> 
+
+ 
+
+      </div> 
+
+    </section> 
+
+ 
+
+    <section class="content-box"> 
+
+      <h2>Rescue Moments Gallery</h2> 
+
+      <p class="gallery-text"> 
+
+        A few more moments that show the care, recovery, and joy behind every rescue journey. 
+
+      </p> 
+
+ 
+
+      <div class="media-gallery"> 
+
+        <img src="images/pet.jpg" alt="Rescued pet at Humane Labs Rescue" class="media-gallery-img"> 
+
+        <img src="images/pet2.jpg" alt="Happy rescued animal" class="media-gallery-img"> 
+
+        <img src="images/pet3.jpg" alt="Animal receiving care and support" class="media-gallery-img"> 
+
+        <img src="images/pet4.jpg" alt="Rescued pet in a safe environment" class="media-gallery-img"> 
+
+        <img src="images/pet5.jpg" alt="Adoptable animal at the rescue" class="media-gallery-img"> 
+
+        <img src="images/pet6.jpg" alt="Rescue success moment" class="media-gallery-img"> 
+
+        <img src="images/pet7.jpg" alt="Rescued animal finding comfort" class="media-gallery-img"> 
+
+        <img src="images/pet8.png" alt="Animal enjoying a second chance" class="media-gallery-img"> 
+
+        <img src="images/pet9.jpg" alt="Rescue pet in a loving environment" class="media-gallery-img"> 
+
+        <img src="images/pet10.jpg" alt="Another happy rescue moment" class="media-gallery-img"> 
+
+        <img src="images/pet11.jpg" alt="Rescued pet receiving care" class="media-gallery-img"> 
+
+        <img src="images/pet12.jpg" alt="Final rescue gallery moment" class="media-gallery-img"> 
+
+      </div> 
+
+    </section> 
+
+ 
+
+  </main> 
+
+ 
+
+  <!-- FOOTER --> 
+
+  <footer> 
+
+    <p>&copy; 2026 Humane Labs Rescue</p> 
+
+    <p><a href="mailto:contact@humanelabs.org">contact@humanelabs.org</a></p> 
+
+    <p> 
+
+      <a href="#">Facebook</a> | 
+
+      <a href="#">Instagram</a> | 
+
+      <a href="#">YouTube</a> 
+
+    </p> 
+
+  </footer> 
+
+ 
+
+  <script src="scripts/script.js"></script> 
+
+</body> 
+
+</html> 
+
+
