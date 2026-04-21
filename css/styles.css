@@ -42,6 +42,15 @@ input[type="submit"]:hover {
   background-color: #1b4fa3;
 }
 
+/* this centers the text in the intro */
+#intro {
+  text-align: center;
+}
+
+#info {
+  text-align: center;
+}
+
 /* mobile rules, hamburger, and other styles for adoptions & home */ 
 #intro, #info {
   margin-bottom: 20px;
