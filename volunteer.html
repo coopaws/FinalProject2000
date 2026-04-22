@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Student Name: Fuka Suzuki___________
+<!-- Student Name: Fuka Suzuki
 File Name/Final Expectation in this page: volunteer.html
 Date: 04/15/2026 
 -->
@@ -27,12 +27,11 @@ Date: 04/15/2026
 <!-- MOBILE NAV -->
 <nav class="mobile-nav">
   <div id="menu-links">
-   <a href="index.html">Home</a>
-   <a href="adoption.html">Adoption</a>
-   <a href="media.html">Stories</a>
-   <a href="volunteer.html">Volunteer</a>
-   <a href="petcare.html">Petcare</a>
-   <a href="contact.html">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="adopt.html">Adopt</a>
+    <a href="donate.html">Donate</a>
+    <a href="media.html">Stories</a>
+    <a href="contact.html">Contact</a>
   </div>
 
   <a class="menu-icon" onclick="hamburger()">
@@ -50,11 +49,10 @@ Date: 04/15/2026
 <!-- DESKTOP NAV -->
 <nav class="tab-desk">
   <ul>
-   <li><a href="index.html">Home</a></li>
-    <li><a href="adoption.html">Adoption</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="adopt.html">Adopt</a></li>
+    <li><a href="donate.html">Donate</a></li>
     <li><a href="media.html">Stories</a></li>
-    <li><a href="volunteer.html">Volunteer</a></li>
-    <li><a href="petcare.html">Petcare</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
@@ -63,53 +61,90 @@ Date: 04/15/2026
 <!-- MAIN CONTENT -->
 <main>
 
-  <h2>Volunteer Application Form</h2>
-  <p>Please fill out the form below if you are interested in volunteering with Humane Labs Rescue.</p>
+  <section class="volunteer-hero">
 
-  <form>
-    <fieldset>
-      <legend>Personal Information</legend>
+    <img src="images/volunteer-hero.png" alt="People helping animals">
 
-      <label for="firstName">First Name:</label><br>
-      <input type="text" id="firstName" name="firstName"><br><br>
+    <div class="volunteer-hero-card">
+      <h2>Volunteer With Us</h2>
 
-      <label for="lastName">Last Name:</label><br>
-      <input type="text" id="lastName" name="lastName"><br><br>
+      <p>
+        Everyone can help in their own way.<br>
+        Share your ideas and support animals in need.
+      </p>
 
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email"><br><br>
+      <a href="#application" class="hero-btn">Apply Now</a>
+    </div>
 
-      <label for="phone">Phone:</label><br>
-      <input type="tel" id="phone" name="phone"><br><br>
+  </section>
 
-      <label for="dob">Date of Birth:</label><br>
-      <input type="date" id="dob" name="dob"><br><br>
-    </fieldset>
+  <section class="volunteer-form-section" id="application">
+    <h3>Volunteer Application Form</h3>
+    <p>
+      There are many ways to help, such as caring for animals, supporting events, or helping with cleaning.
+      You can also share your own ideas. Please complete the form below to tell us more about yourself and how you would like to help.
+    </p>
 
-    <fieldset>
-      <legend>Volunteer Information</legend>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
 
-      <label for="role">Preferred Role:</label><br>
-      <input type="text" id="role" name="role"><br><br>
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName"><br><br>
 
-      <label for="availability">Available Days and Hours per Week:</label><br>
-      <input type="text" id="availability" name="availability"><br><br>
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName"><br><br>
 
-      <label for="experience">Previous Experience:</label><br>
-      <input type="text" id="experience" name="experience"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
 
-      <label for="allergies">Allergies:</label><br>
-      <input type="text" id="allergies" name="allergies"><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
 
-      <label for="emergency">Emergency Contact:</label><br>
-      <input type="text" id="emergency" name="emergency"><br><br>
-    </fieldset>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+      </fieldset>
 
-    <input type="submit" value="Submit">
-  </form>	
- 
+      <fieldset>
+        <legend>Volunteer Information</legend>
+
+        <label for="role">How Would You Like to Help?</label><br>
+        <input
+          type="text"
+          id="role"
+          name="role"
+          placeholder="e.g. helping with animals, events, cleaning, or your own idea"><br><br>
+
+        <label for="availability">Available Days and Hours:</label><br>
+        <input
+          type="text"
+          id="availability"
+          name="availability"
+          placeholder="e.g. weekends, 5 to 10 hours per week"><br><br>
+
+        <label for="experience">Previous Experience:</label><br>
+        <input
+          type="text"
+          id="experience"
+          name="experience"
+          placeholder="optional"><br><br>
+
+        <label for="allergies">Allergies or Limitations:</label><br>
+        <input 
+          type="text" 
+          id="allergies" 
+          name="allergies"
+          placeholder="optional"><br><br>
+
+        <label for="emergency">Emergency Contact:</label><br>
+        <input type="text" id="emergency" name="emergency"><br><br>
+      </fieldset>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
 </main>
-
 
 <!-- FOOTER -->
 <footer>
