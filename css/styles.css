@@ -251,6 +251,7 @@ h3,
 .caption,
 figcaption {
   font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+}
 
 /* Fuka addition */
 /* petcare hero */
@@ -705,5 +706,5 @@ figcaption {
     width: 100%;
     text-align: center;
   }
-}
+
 
